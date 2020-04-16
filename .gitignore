@@ -3,4 +3,5 @@
 /src/node_modules/@sapper/
 yarn-error.log
 /cypress/screenshots/
-/__sapper__/
+**/__*__
+functions/__sapper__/

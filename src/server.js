@@ -17,5 +17,4 @@ if (dev) {
     });
 }
 
-// eslint-disable-next-line import/prefer-default-export
-export { sapper };
+export default sapper;

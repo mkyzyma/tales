@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var sirv = _interopDefault(require('sirv'));
@@ -3009,7 +3007,7 @@ function serve({ prefix, pathname, cache_control }
 
 function noop$1(){}
 
-var server = /*#__PURE__*/Object.freeze({
+var sapper = /*#__PURE__*/Object.freeze({
     __proto__: null,
     middleware: middleware
 });
@@ -3026,4 +3024,4 @@ if (dev) {
     });
 }
 
-exports.sapper = server;
+module.exports = sapper;
