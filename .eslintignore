@@ -1,0 +1,4 @@
+**/node_modules
+__sapper__
+cypress
+src/service-worker.js

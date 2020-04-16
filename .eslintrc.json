@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier", "svelte3"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  },
+ "env": {
+      "browser": true,
+      "node": true
+  },
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "processor": "svelte3/svelte3"
+    }
+  ]
+}
