@@ -8,6 +8,9 @@ import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup';
 import pkg from './package.json';
 
+// require('./node_modules/bulma/css/bulma.min.css');
+// require('./node_modules/font-awesome/css/font-awesome.min.css');
+
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;

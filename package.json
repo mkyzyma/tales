@@ -16,8 +16,11 @@
     "lint": "eslint '**/*.js'"
   },
   "dependencies": {
+    "bulma": "^0.8.2",
     "compression": "^1.7.1",
     "firebase-tools": "^8.0.3",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.13.1",
     "polka": "next",
     "sirv": "^0.4.0"
   },
