@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "10"
+script:
+ - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - npm run deploy-prod --token 1//0cCs-QaiHuIjJCgYIARAAGAwSNwF-L9Ir90jYMbdAjmQa3eQnFRRbJ-s-Mov2Zdb6Hazl4TR864X_F93_pqkxEpluqXDK967atIA
