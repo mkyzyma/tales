@@ -15,8 +15,13 @@
 	}
 </style>
 
-<Nav {segment}/>
-
-<main>
-	<slot></slot>
-</main>
+<div class='level'>
+  <Nav {segment}/>
+</div>
+<div class='level'>
+  <div class='columns'>
+    <main class=''>
+      <slot></slot>
+    </main>
+  </div>>
+</div>
